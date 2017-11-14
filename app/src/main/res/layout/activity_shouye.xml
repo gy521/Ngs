@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:id="@+id/ss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#f00"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_normal_code"
+            android:id="@+id/er"
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="搜索宝贝"
+            android:textSize="12dp"
+            android:layout_gravity="center"
+            android:background="#FF5001"
+            android:drawableRight="@drawable/ic_normal_search"
+            android:layout_weight="0.98"></EditText>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_normal_message"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recy_list"
+        android:layout_below="@+id/ss"
+        ></com.jcodecraeer.xrecyclerview.XRecyclerView>
+</RelativeLayout>

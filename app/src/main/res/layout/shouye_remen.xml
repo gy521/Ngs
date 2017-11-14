@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="50dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/re"
+        android:textSize="24px"
+        android:layout_below="@+id/layout"
+        android:layout_marginLeft="20dp"
+        />
+    <cn.iwgang.countdownview.CountdownView
+        android:id="@+id/teacher_countdownView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:isHideTimeBackground="false"
+        app:timeBgColor="#f5f5f5"
+        app:isShowDay="true"
+        app:isShowHour="true"
+        app:isShowMinute="true"
+        app:isShowSecond="true"
+        app:timeTextColor="#000"
+        app:timeTextSize="20sp"
+        app:suffixGravity="center"
+        app:suffixTextColor="#7B3A94"
+        app:suffixTextSize="24sp"
+        app:suffixDay="天"
+        app:suffixHour="时"
+        app:suffixMinute="分"
+        app:suffixSecond="秒"
+        android:layout_centerInParent="true"/>
+</LinearLayout>

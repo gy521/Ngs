@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">man_shoping</string>
+    <string name="app_home">首页</string>
+    <string name="app_class">分类</string>
+    <string name="app_cart">购物车</string>
+    <string name="app_uer">个人</string>
+    <string name="app_log">点击登录</string>
+    <string name="app_shou">商品收藏</string>
+    <string name="app_dian">店铺收藏</string>
+    <string name="app_zu">我的足迹</string>
+    <string name="app_quan">全部订单</string>
+    <string name="app_no">未付款</string>
+    <string name="app_dai">待发货</string>
+    <string name="app_shouhuo">待收货</string>
+    <string name="app_pin">待评论</string>
+    <string name="app_kuan">退款/货</string>
+    <string name="app_cai">我的财产</string>
+    <string name="app_chong">充值卡</string>
+    <string name="app_daishou">代售卷</string>
+    <string name="app_ji">寄售款</string>
+    <string name="app_zhi">支付款</string>
+    <string name="app_hong">红包</string>
+    <string name="app_di">收货地址</string>
+    <string name="app_xi">系统设置</string>
+    <string name="app_loga">用户登录</string>
+    <string name="app_names">请输入账户</string>
+    <string name="app_pass">请输入密码</string>
+    <string name="app_but">登录</string>
+    <string name="app_zhuce">注册</string>
+    <string name="app_zhu">注册账号</string>
+    <string name="app_uerpass">找回密码</string>
+    <string name="app_my_xin">个人信息</string>
+    <string name="taobao">淘宝头像</string>
+    <string name="taobao_name">淘宝个人名称</string>
+    <string name="taobao_nichen">淘宝昵称</string>
+    <string name="taobao_sex">性别</string>
+</resources>
